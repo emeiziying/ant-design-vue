@@ -128,8 +128,8 @@ const PageHeader = {
 
     return (
       <div class={className}>
-        {breadcrumbDom}
         {renderTitle(h, prefixCls, this)}
+        {breadcrumbDom}
         {children && renderChildren(h, prefixCls, children)}
         {renderFooter(h, prefixCls, footer)}
       </div>
